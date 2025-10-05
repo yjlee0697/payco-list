@@ -16,7 +16,7 @@
   .tabs{display:flex;gap:8px;overflow:auto;padding-bottom:8px;margin-bottom:8px;border-bottom:1px solid var(--border)}
   .tab{flex:0 0 auto;padding:8px 12px;border:1px solid var(--border);border-radius:999px;background:#fff;
     cursor:pointer;font-size:13px;color:var(--text)}
-  .tab.active{border-color:var(--accent);color:var(--accent);font-weight:700}
+  .tab.active{background-color:var(--accent);color:#fff;font-weight:700}
   .chips{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 12px}
   .chip{padding:6px 10px;border:1px solid var(--border);border-radius:999px;background:#fff;cursor:pointer;font-size:12px;color:var(--text)}
   .chip.active{border-color:var(--accent);color:var(--accent);font-weight:700}
@@ -45,10 +45,10 @@
     <div class="topbar">
       <div>
       <h1>페이코 식권 사용처</h1>
-      <div class="count">총 <span id="count">0</span>개</div>
+      <div style="font-size: 12px; color:var(--muted)"> 모든 문의는 제이스에게 주세요</div>
       </div>
-        <div style="font-size: 12px; color:var(--muted)"> 모든 문의는 '제이스'에게 편하게 슬랙주세요!
-        </div>
+      <div class="count">총 <span id="count">0</span>개</div>
+        
     </div>
       
 
